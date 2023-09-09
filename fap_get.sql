@@ -134,6 +134,7 @@ BEGIN
 END$$
 DELIMITER ;
 
+-- Show list of student who absent a lot that he/she was banned from FE
 INSERT INTO attendance_report (number_slots_absent, student_id, class_id)
 VALUES(10, 4, 3), (9, 3, 2);
 
